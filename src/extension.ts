@@ -5,7 +5,7 @@ export function activate(context: vscode.ExtensionContext) {
   console.log('mg-deepseek-vscode-extension is active!');
 
   const disposable = vscode.commands.registerCommand('mg-deepseek-vscode-extension.start', () => {
-    const panel = vscode.window.createWebviewPanel('deepChat', 'DeepSeek Chat', vscode.ViewColumn.One, { enableScripts: true });
+    const panel = vscode.window.createWebviewPanel('deepChat', 'Deepseek Chat', vscode.ViewColumn.One, { enableScripts: true });
 
     panel.webview.html = getWebviewContent();
 
@@ -46,15 +46,13 @@ function getWebviewContent(): string {
                       h2{font-size: 20px; text-align: center}
                       #prompt {width: 100%; height: 100px; box-sizing: border-box; border-radius: 10px; resize: vertical; padding: 5px}
                       #response {border: 1px solid #ccc; margin-top: 1rem; padding: 0.5rem; overflow-wrap: anywhere;}
-                      #response:empty::before {content: 'Deepseek will answer here...'}
                     </style>
                   </head>
                   <body>
-                    <h2> Deepseek Chat</h2>
+                    <h2>Deepseek Chat</h2>
                     <textarea id="prompt" rows="2" placeholder="Ask Something :)"></textarea><br/>
                     <button id="askButton">Ask</button>
-                      <div id="response">
-                      </div>
+                      <div id="response"></div>
                       <script>
                         const vscode = acquireVsCodeApi();
 
