@@ -1,7 +1,7 @@
 {
   "name": "mg-deepseek-vscode-extension",
   "displayName": "mg-deepseek-vscode-extension",
-  "description": "This is a VSCode extension to be able to use DeepSeek in it.",
+  "description": "This is an extension to be able to chat with Deepseek inside VSCode.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
