@@ -8,7 +8,7 @@ The extension communicates with a locally running Deepseek instance.
 - Install ollama globally from their [website](https://ollama.com/).
 - Download one of the Deepseek models that suits your computer. [Model list](https://ollama.com/library/deepseek-r1)
   _(`ollama run deepseek-r1:8b`)_
-- Make sure that the correct version is set [here](./src/extension.ts#19)!
+- Make sure that the correct version is set [here](https://github.com/mgabor18/mg-deepseek-vscode-extension/blob/320b3c91bcc8aa2298cf9278c03f60379eb7b7ad/src/extension.ts#L19)!
 
 _The current implementation was tested using the 8b version._
 
