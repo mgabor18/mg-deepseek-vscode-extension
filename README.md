@@ -46,8 +46,8 @@ code --install-extension <xyz>.vsix
 
 ## Usage
 
-- Press `ctrl + shift + P` and select `Run: DeepSeek Chat`.
-- Type in your promt to the top text box.
+- Press `ctrl + shift + P` and select `Run: Deepseek Chat`.
+- Type in your prompt to the top text box.
 - Press the `Ask` button.
 - Wait for the response below. _(Note that response time can vary based on your computer's hardware)_
 
