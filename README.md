@@ -12,7 +12,7 @@ The extension communicates with a locally running Deepseek instance.
 
 _The current implementation was tested using the 8b version._
 
-## Setup
+## Developer setup
 
 ### Install dependencies
 
