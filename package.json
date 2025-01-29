@@ -3,6 +3,10 @@
   "displayName": "mg-deepseek-vscode-extension",
   "description": "This is an extension to be able to chat with Deepseek inside VSCode.",
   "url": "https://github.com/mgabor18/mg-deepseek-vscode-extension.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgabor18/mg-deepseek-vscode-extension.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
