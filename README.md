@@ -52,7 +52,7 @@ code --install-extension <xyz>.vsix
 - Wait for the response below. _(Note that response time can vary based on your computer's hardware)_
 
 **_I do not take resposibility for any answer that is provided as that is entirely done by the model.
-The response is provided by the extension as-is._**
+The response is provided through the extension as-is._**
 
 ## Screenshot
 
